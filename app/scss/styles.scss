@@ -1,2 +1,19 @@
 @import "bourbon";
 @import "neat";
+
+html,
+body {
+  margin: 0;
+}
+
+.navbar {
+  @include grid-container;
+
+  margin: 0;
+  height: 60px;
+  background:
+    linear-gradient(to top,
+    rgba(255, 255, 255, 0),
+    rgba(51, 51, 51, 0.9)
+    30%);
+}
