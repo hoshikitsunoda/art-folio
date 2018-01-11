@@ -12,8 +12,38 @@ body {
   margin: 0;
   height: 60px;
   background:
-    linear-gradient(to top,
-    rgba(255, 255, 255, 0),
-    rgba(51, 51, 51, 0.9)
-    30%);
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0),
+      rgba(51, 51, 51, 0.9)
+      30%
+    );
+}
+
+.container {
+  @include grid-container;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
