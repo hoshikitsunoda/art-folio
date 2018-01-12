@@ -1,5 +1,6 @@
 html,
 body {
+  height: calc(100vh - 40px);
   margin: 0;
   font-size: 10px;
   font-family: 'Inconsolata', monospace; }
@@ -7,7 +8,7 @@ body {
 li {
   list-style: none; }
 
-img {
+.image-wrapper > img {
   width: 200px;
   position: relative; }
 
@@ -164,7 +165,8 @@ img {
 
 .contents-container {
   width: 80%;
-  height: auto; }
+  position: relative;
+  height: 100vh; }
 
 .image-wrapper {
   width: 100%;
@@ -220,6 +222,29 @@ img {
   position: absolute;
   left: 580px;
   top: 500px; }
+
+#detail {
+  position: absolute; }
+
+.hidden {
+  display: none; }
+
+.big-image-wrapper {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  margin: 0; }
+
+#big-image {
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -30%); }
 
 .overlay {
   top: 40px;
