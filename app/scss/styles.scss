@@ -12,6 +12,10 @@ li {
   list-style: none;
 }
 
+img {
+  width: 250px;
+}
+
 .navbar {
   @include grid-container;
 

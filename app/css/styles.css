@@ -7,6 +7,9 @@ body {
 li {
   list-style: none; }
 
+img {
+  width: 250px; }
+
 .navbar {
   margin: 0;
   position: relative;
