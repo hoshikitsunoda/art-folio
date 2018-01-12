@@ -178,7 +178,7 @@ li {
   position: relative;
   height: 100vh;
   margin: auto;
-  margin-left: 200px; }
+  margin-left: 150px; }
 
 .image-wrapper {
   width: 100%;
@@ -335,9 +335,40 @@ li {
   background-color: rgba(70, 71, 70, 0.7); }
 
 footer {
-  height: 100px;
+  height: 120px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 70%); }
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 50%); }
+
+.art {
+  box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.3); }
+
+#bio {
+  font-size: 1.5rem; }
+
+#top-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  width: 80%;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#bio-wrap {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+#link-wrap {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+#link > a {
+  font-size: 1.3rem;
+  padding: 8px 80px;
+  display: block; }
