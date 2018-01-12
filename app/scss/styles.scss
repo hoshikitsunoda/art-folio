@@ -13,7 +13,8 @@ li {
 }
 
 img {
-  width: 250px;
+  width: 220px;
+  position: relative;
 }
 
 .navbar {
@@ -169,6 +170,9 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -192,4 +196,70 @@ img {
 .contents-container {
   width: 80%;
   height: auto;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#plant {
+  position: absolute;
+  left: 190px;
+  top: 70px;
+}
+
+#butterfly {
+  position: absolute;
+  left: 330px;
+  top: 150px;
+}
+
+#dance {
+  position: absolute;
+  left: 500px;
+  top: 220px;
+}
+
+#faces {
+  position: absolute;
+  left: 700px;
+  top: 150px;
+}
+
+#dance {
+  position: absolute;
+  left: 500px;
+  top: 260px;
+}
+
+#strange {
+  position: absolute;
+  left: 400px;
+  top: 380px;
+}
+
+#yannar {
+  position: absolute;
+  left: 300px;
+  top: 460px;
+}
+
+#korea {
+  position: absolute;
+  left: 440px;
+  top: 580px;
+}
+
+#oni-fish {
+  position: absolute;
+  left: 560px;
+  top: 670px;
+}
+
+#saga {
+  position: absolute;
+  left: 600px;
+  top: 500px;
 }
