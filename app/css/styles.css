@@ -344,3 +344,31 @@ footer {
 
 .art {
   box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.3); }
+
+#bio {
+  font-size: 1.5rem; }
+
+#top-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  width: 80%;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#bio-wrap {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+#link-wrap {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px; }
+
+#link > a {
+  font-size: 1.3rem;
+  padding: 8px 80px;
+  display: block; }
