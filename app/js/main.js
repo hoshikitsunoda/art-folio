@@ -12,3 +12,7 @@ for(let i = 0; i < $image.length; i++) {
     event.target.classList.remove('image-hover')
   })
 }
+
+document.addEventListener('click', function(event) {
+  event.target.classList.remove('overlay')
+})
