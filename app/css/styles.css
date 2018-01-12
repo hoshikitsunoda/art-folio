@@ -174,10 +174,11 @@ li {
     width: 1170px; } }
 
 .contents-container {
-  width: 80%;
+  width: 60%;
   position: relative;
   height: 100vh;
-  margin: auto; }
+  margin: auto;
+  margin-left: 200px; }
 
 .image-wrapper {
   width: 100%;
@@ -230,6 +231,76 @@ li {
   top: 720px; }
 
 #saga {
+  position: absolute;
+  left: 480px;
+  top: 500px; }
+
+#moon {
+  position: absolute;
+  left: 450px;
+  top: 260px; }
+
+#towerofsun {
+  position: absolute;
+  left: 550px;
+  top: 200px; }
+
+#woman {
+  position: absolute;
+  left: 350px;
+  top: 340px; }
+
+#selfportrait {
+  position: absolute;
+  left: 250px;
+  top: 460px; }
+
+#sunegg {
+  position: absolute;
+  left: 350px;
+  top: 580px; }
+
+#tree {
+  position: absolute;
+  left: 510px;
+  top: 720px; }
+
+#dieturn {
+  position: absolute;
+  left: 480px;
+  top: 500px; }
+
+#void {
+  position: absolute;
+  left: 450px;
+  top: 260px; }
+
+#silva {
+  position: absolute;
+  left: 550px;
+  top: 200px; }
+
+#skullcandy {
+  position: absolute;
+  left: 350px;
+  top: 340px; }
+
+#octo {
+  position: absolute;
+  left: 250px;
+  top: 460px; }
+
+#liquidbrain {
+  position: absolute;
+  left: 350px;
+  top: 580px; }
+
+#colorfro {
+  position: absolute;
+  left: 510px;
+  top: 720px; }
+
+#fresh {
   position: absolute;
   left: 480px;
   top: 500px; }
