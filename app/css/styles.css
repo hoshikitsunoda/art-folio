@@ -21,7 +21,7 @@ li {
   margin: 0;
   position: relative;
   min-height: 50px;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(51, 51, 51, 0.9) 90%); }
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(51, 51, 51, 0.8) 90%); }
   .navbar::after {
     clear: both;
     content: "";
@@ -346,7 +346,8 @@ footer {
   box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.3); }
 
 #bio {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #535453; }
 
 #top-row {
   width: calc(100% - 40px);
@@ -371,4 +372,27 @@ footer {
 #link > a {
   font-size: 1.3rem;
   padding: 8px 80px;
-  display: block; }
+  display: block;
+  color: #535453; }
+
+#contact-title-wrapper {
+  margin-top: 4%; }
+
+#contact-title {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+  color: #535453; }
+
+#contact-message {
+  width: 60%;
+  left: 50%;
+  padding-top: 80px;
+  position: relative;
+  transform: translate(-50%, -50%); }
+
+#contact-message > p {
+  font-size: 1.4rem;
+  color: #535453;
+  text-align: center;
+  line-height: 25px; }
