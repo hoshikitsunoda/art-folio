@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <meta charset="utf-8">
-    <title>hosh'ki - about me</title>
+    <title>hosh'ki - contact</title>
   </head>
   <body>
     <nav class="navbar">
@@ -36,32 +36,26 @@
         </div>
       </div>
     </nav>
-    <div id="top-row">
-      <div id="bio-wrap">
-        <p id="bio">
-          Born in Japan in 1984. Orange County based. <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          Seiki Tsunoda aka Hoshiki Tsunoda is an artist living and working as a web developer in Orange County, Ca. <br>
-          <br>
-          Experimenting with all mediums from music, painting to web designing.
-          <br>
-          <br>
-          <br>
-          For questions, collabs or say hi: <a href="mailto:liquidohr@gmail.com">liquidohr@gmail.com</a>
-        </p>
-      </div>
-      <div id="link-wrap">
-        <p id="link">Other works:
-          <a href="https://github.com/hoshikitsunoda" target="_blank">github</a>
-          <a href="https://soundcloud.com/liquid_sunshine" target="_blank">soundcloud</a>
-          <a href="https://www.instagram.com/hoshki_tzu/" target="_blank">instagram</a>
-        </p>
+    <div id="contact-title-wrapper">
+      <h1 id="contact-title">CONTACT</h1>
+      <div id="contact-message">
+        <p>Seiki Tsunoda is available for local projects as well as potential employment opportunities. <br>
+          Use the form to inquire about rates and availability, or just to say hi.</p>
       </div>
     </div>
+    <form id="message-form" action="mailto:liquidohr@gmail.com" method="post" enctype="text/plain">
+      <div id="email-input-wrapper">
+        <h2>email</h2>
+        <input id="email-input" type="text" name="" value="">
+      </div>
+      <div id="message-input-wrapper">
+        <h2>message</h2>
+        <textarea id="message-input" type="text" name="" value="" rows="8"></textarea>
+      </div>
+      <div id="submit-wrapper">
+        <button id="send-message" type="submit" value="send message">send message</button>
+      </div>
+    </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.9/interact.min.js"></script>
-    <!-- <script src="/js/drag-drop.js" charset="utf-8"></script> -->
   </body>
 </html>
