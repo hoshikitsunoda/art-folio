@@ -394,7 +394,8 @@ li {
 }
 
 #big-image {
-  width: 500px;
+  width: auto;
+  height: 600px;
   top: 50%;
   left: 50%;
   position: relative;
@@ -465,8 +466,8 @@ footer {
 #contact-title {
   text-align: center;
   font-size: 5rem;
-  letter-spacing: 0.2rem;
-  color: #535453;
+  color: #242525;
+  opacity: 0.8;
 }
 
 #contact-message {
@@ -538,4 +539,16 @@ footer {
   width: 120px;
   height: 50px;
   background-color: transparent;
+}
+
+#art-description-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#art-description {
+  font-size: 1.4rem;
+  color: white;
+  text-shadow: 1px 1px 1px #535453;
 }
