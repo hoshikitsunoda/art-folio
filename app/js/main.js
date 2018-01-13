@@ -3,6 +3,10 @@ const $bigImage = document.querySelector('#big-image')
 const $overlay = document.querySelector('.overlay')
 const $description = document.querySelector('#art-description')
 
+for(let i =0; i < $image.length; i++) {
+  $image[i].setAttribute('src', artData[i].url)
+}
+
 $image.forEach(image => {
   image.addEventListener('mouseover', function(event) {
     event.target.classList.add('image-hover')
