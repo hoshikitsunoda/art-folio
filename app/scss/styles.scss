@@ -464,7 +464,7 @@ footer {
 
 #contact-title {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
   letter-spacing: 0.2rem;
   color: #535453;
 }
@@ -482,4 +482,23 @@ footer {
   color: #535453;
   text-align: center;
   line-height: 25px;
+}
+
+#email-input-wrapper {
+  width: 60%;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#email-input-wrapper > h2 {
+  text-align: center;
+}
+
+#email-input {
+  width: 50%;
+  display: block;
+  margin : 0 auto;
+  text-align: center;
 }
