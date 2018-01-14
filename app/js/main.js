@@ -1,3 +1,5 @@
+const $image = document.querySelectorAll('.art')
+const $gallery = document.querySelectorAll('.gallery')
 const $detail = document.querySelector('#detail')
 const $bigImage = document.querySelector('#big-image')
 const $overlay = document.querySelector('.overlay')
@@ -5,6 +7,11 @@ const $description = document.querySelector('#art-description')
 
 for(let i =0; i < $image.length; i++) {
   $image[i].setAttribute('src', artData[i].url)
+}
+
+for(let i =0; i < $gallery.length; i++) {
+  console.log(artData[i].url);
+  $gallery[i].setAttribute('src', paintingData[i].url)
 }
 
 $image.forEach(image => {

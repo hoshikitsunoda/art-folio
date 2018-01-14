@@ -1,4 +1,3 @@
-const $image = document.querySelectorAll('.art')
 const $container = document.querySelector('.contents-container')
 const winWidth = $container.offsetWidth
 const winHeight = window.innerHeight + 600
