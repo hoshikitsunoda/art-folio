@@ -10,7 +10,6 @@ for(let i =0; i < $image.length; i++) {
 }
 
 for(let i =0; i < $gallery.length; i++) {
-  console.log(artData[i].url);
   $gallery[i].setAttribute('src', paintingData[i].url)
 }
 
