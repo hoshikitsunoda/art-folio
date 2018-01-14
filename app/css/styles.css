@@ -181,10 +181,22 @@ li {
   margin-left: 150px; }
 
 .image-container {
-  width: 80%;
+  width: 100%;
   position: relative;
   height: 100vh;
   margin: auto; }
+
+#top-row {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  height: 50px; }
+
+.gallery-image-wrapper {
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px;
+  height: 50px; }
 
 .image-wrapper {
   width: 100%;
