@@ -1,6 +1,7 @@
 const $image = document.querySelectorAll('.art')
 const $painting = document.querySelectorAll('.painting')
 const $drawing = document.querySelectorAll('.drawing')
+const $digital = document.querySelectorAll('.digital')
 const $detail = document.querySelector('#detail')
 const $bigImage = document.querySelector('#big-image')
 const $overlay = document.querySelector('.overlay')
@@ -16,6 +17,10 @@ for(let i =0; i < $painting.length; i++) {
 
 for(let i =0; i < $drawing.length; i++) {
   $drawing[i].setAttribute('src', drawingData[i].url)
+}
+
+for(let i =0; i < $digital.length; i++) {
+  $digital[i].setAttribute('src', digitalWorkData[i].url)
 }
 
 $image.forEach(image => {

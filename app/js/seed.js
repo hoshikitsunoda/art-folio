@@ -246,3 +246,48 @@ const drawingData =[
     url: 'https://goo.gl/sED7Bc'
   }
 ]
+
+const digitalWorkData = [
+  {
+    id: 'void',
+    title: 'Void',
+    year: '2016',
+    url: 'https://goo.gl/xRZfhe'
+  },
+  {
+    id: 'silva',
+    title: 'Silva',
+    year: '2015',
+    url: 'https://goo.gl/btNHDN'
+  },
+  {
+    id: 'skullcandy',
+    title: 'Skull Candy',
+    year: '2016',
+    url: 'https://goo.gl/r3kpQC'
+  },
+  {
+    id: 'octo',
+    title: 'Octo',
+    year: '2016',
+    url: 'https://goo.gl/QwsQCm'
+  },
+  {
+    id: 'liquidbrain',
+    title: 'Liquid Brain',
+    year: '2017',
+    url: 'https://goo.gl/hX2zYK'
+  },
+  {
+    id: 'colorfro',
+    title: 'Color-Fro',
+    year: '2017',
+    url: 'https://goo.gl/2UKMv2'
+  },
+  {
+    id: 'fresh',
+    title: 'Fresh!',
+    year: '2016',
+    url: 'https://goo.gl/xEh7L2'
+  }
+]
