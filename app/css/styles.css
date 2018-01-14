@@ -180,6 +180,12 @@ li {
   margin: auto;
   margin-left: 150px; }
 
+.image-container {
+  width: 80%;
+  position: relative;
+  height: 100vh;
+  margin: auto; }
+
 .image-wrapper {
   width: 100%;
   height: auto;
