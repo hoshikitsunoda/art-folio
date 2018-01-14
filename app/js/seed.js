@@ -37,7 +37,7 @@ const artData = [
   },
   {
     id: 'korea',
-    title: 'Korean Insiration',
+    title: 'Korean Inspiration',
     year: '2016',
     url: 'https://goo.gl/5vYUjC'
   },
