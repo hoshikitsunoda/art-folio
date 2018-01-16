@@ -1,4 +1,5 @@
 const $image = document.querySelectorAll('.art')
+const $gallery = document.querySelectorAll('.gallery')
 const $painting = document.querySelectorAll('.painting')
 const $drawing = document.querySelectorAll('.drawing')
 const $digital = document.querySelectorAll('.digital')
@@ -32,6 +33,24 @@ $image.forEach(image => {
   })
   image.addEventListener('mouseleave', function(event) {
     event.target.classList.remove('image-hover')
+  })
+  image.addEventListener('click', function(event) {
+    const imgSource = event.target.getAttribute('src')
+    $bigImage.setAttribute('src', imgSource)
+  })
+  image.addEventListener('click', function(event) {
+    const imgId = event.target.getAttribute('id')
+    artData.filter(art => {
+      if(art.id === imgId) {
+        $description.textContent = art.title + ', ' + art.year
+      }
+    })
+  })
+})
+
+$gallery.forEach(image => {
+  image.addEventListener('click', function() {
+    $detail.classList.remove('hidden')
   })
   image.addEventListener('click', function(event) {
     const imgSource = event.target.getAttribute('src')
