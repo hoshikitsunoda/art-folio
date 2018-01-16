@@ -1,4 +1,5 @@
 const $image = document.querySelectorAll('.art')
+const $gallery = document.querySelectorAll('.gallery')
 const $painting = document.querySelectorAll('.painting')
 const $drawing = document.querySelectorAll('.drawing')
 const $digital = document.querySelectorAll('.digital')
@@ -44,6 +45,12 @@ $image.forEach(image => {
         $description.textContent = art.title + ', ' + art.year
       }
     })
+  })
+})
+
+$gallery.forEach(image => {
+  image.addEventListener('click', function() {
+    $detail.classList.remove('hidden')
   })
 })
 
