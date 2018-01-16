@@ -56,6 +56,14 @@ $gallery.forEach(image => {
     const imgSource = event.target.getAttribute('src')
     $bigImage.setAttribute('src', imgSource)
   })
+  image.addEventListener('click', function(event) {
+    const imgId = event.target.getAttribute('id')
+    artData.filter(art => {
+      if(art.id === imgId) {
+        $description.textContent = art.title + ', ' + art.year
+      }
+    })
+  })
 })
 
 $overlay.addEventListener('click', function(event) {
