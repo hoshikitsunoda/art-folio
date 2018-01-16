@@ -52,6 +52,10 @@ $gallery.forEach(image => {
   image.addEventListener('click', function() {
     $detail.classList.remove('hidden')
   })
+  image.addEventListener('click', function(event) {
+    const imgSource = event.target.getAttribute('src')
+    $bigImage.setAttribute('src', imgSource)
+  })
 })
 
 $overlay.addEventListener('click', function(event) {
