@@ -7,6 +7,8 @@ const $detail = document.querySelector('#detail')
 const $bigImage = document.querySelector('#big-image')
 const $overlay = document.querySelector('.overlay')
 const $description = document.querySelector('#art-description')
+const $navBar = document.querySelector('.navbar-toggle')
+const $navBarNav = document.querySelector('.navbar-nav')
 
 for(let i =0; i < $image.length; i++) {
   $image[i].setAttribute('src', artData[i].url)
@@ -68,4 +70,8 @@ $gallery.forEach(image => {
 
 $overlay.addEventListener('click', function(event) {
   $detail.classList.add('hidden')
+})
+
+$navBar.addEventListener('click', function(event) {
+  $navBarNav.classList.toggle('active')
 })
