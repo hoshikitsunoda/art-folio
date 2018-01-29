@@ -56,13 +56,18 @@ li {
 .navbar-brand {
   box-sizing: border-box;
   font-size: 3rem;
-  color: #9d9d9d;
-  background: -webkit-linear-gradient(#eee, #464746);
+  background: -webkit-linear-gradient(white, #464746);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   padding: 15px;
   line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
 }
 
 .navbar-toggle {
