@@ -455,6 +455,18 @@ li {
   overflow: auto;
 }
 
+@media (max-width: 768px) {
+  .big-image-wrapper {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .big-image-wrapper #big-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
 #big-image {
   width: auto;
   height: 600px;
@@ -623,7 +635,7 @@ footer {
   padding-top: 24px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   #contact-title,
   #work-title {
     font-size: 3rem;
