@@ -62,11 +62,15 @@ li {
   text-decoration: none;
   padding: 15px;
   line-height: 24px;
+  letter-spacing: 15px;
 }
 
 @media (max-width: 768px) {
   .navbar-brand {
+    padding: 0;
+    line-height: 20px;
     font-size: 2rem;
+    letter-spacing: 1px;
   }
 }
 
@@ -186,7 +190,24 @@ li {
 @media (max-width: 768px) {
   .navbar-nav {
     display: none;
+    margin-top: 20px;
   }
+
+  .navbar-nav li {
+    margin-right: -3px;
+    position: relative;
+    right: 12px;
+    width: 100%;
+    text-align: right;
+  }
+
+  .navbar-nav li a {
+    color: #535453;
+  }
+}
+
+.active {
+  display: block;
 }
 
 .caret {
@@ -263,20 +284,21 @@ li {
 
 @media(max-width: 768px) {
   .gallery-image-wrapper {
-    @include grid-column(12 of 12);
-
+    width: 100%;
     height: 15vh;
     overflow: hidden;
     border-radius: 5px;
     margin-top: 10px;
+    margin-left: 0;
   }
 
   #top-gallery-row,
   #second-gallery-row,
   #bottom-gallery-row {
-    @include grid-column(12);
+    width: 100%;
 
     margin-top: 0;
+    margin-left: 0;
   }
 }
 
