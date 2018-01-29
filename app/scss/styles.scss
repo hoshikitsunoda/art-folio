@@ -260,11 +260,12 @@ li {
   .gallery-image-wrapper {
     @include grid-column(12 of 12);
 
-    height: 200px;
+    height: 15vh;
     overflow: hidden;
     border-radius: 5px;
     margin-top: 10px;
-  },
+  }
+
   #top-gallery-row,
   #second-gallery-row,
   #bottom-gallery-row {
@@ -615,4 +616,10 @@ footer {
 
 #work-title-wrapper {
   padding-top: 24px;
+}
+
+@media(max-width: 768px) {
+  #work-title-wrapper {
+    padding-top: 0;
+  }
 }
