@@ -619,6 +619,11 @@ footer {
 }
 
 @media(max-width: 768px) {
+  #contact-title,
+  #work-title {
+    font-size: 3rem;
+  }
+
   #work-title-wrapper {
     padding-top: 0;
   }
