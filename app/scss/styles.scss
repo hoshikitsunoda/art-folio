@@ -548,7 +548,27 @@ footer {
   @include grid-column(6 of 12);
 }
 
-#link > a {
+@media (max-width: 768px) {
+  #top-row {
+    margin: 0;
+  }
+
+  #bio-wrap {
+    width: 100%;
+  }
+
+  #link-wrap {
+    width: 100%;
+  }
+
+  #link > a {
+    font-size: 1.3rem;
+    display: inline;
+    color: #535453;
+  }
+}
+
+#link-wrap #link a {
   font-size: 1.3rem;
   padding: 8px 80px;
   display: block;
@@ -573,9 +593,17 @@ footer {
 #contact-message {
   width: 60%;
   left: 50%;
-  padding-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   position: relative;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  #contact-message {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
 }
 
 #contact-message > p {
