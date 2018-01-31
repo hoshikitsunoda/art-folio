@@ -19,9 +19,8 @@ $(function() {
 
       $(formMessages).text(response);
 
-      $('#name').val('');
-      $('#email').val('');
-      $('#message').val('');
+      $('#email-input').val('');
+      $('#message-input').val('');
     })
     .fail(function(data) {
         $(formMessages).removeClass('success');
