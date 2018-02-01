@@ -9,6 +9,7 @@ const gulpIf = require('gulp-if')
 const cssnano = require('gulp-cssnano')
 const del = require('del')
 const runSequence = require('run-sequence')
+// const connect = require('gulp-connect-php')
 
 gulp.task('sass', function() {
   return gulp.src('app/scss/**/*.scss')

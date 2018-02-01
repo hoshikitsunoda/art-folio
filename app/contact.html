@@ -43,19 +43,23 @@
           Use the form to inquire about rates and availability, or just to say hi.</p>
       </div>
     </div>
-    <form id="message-form" action="mailto:liquidohr@gmail.com" method="post" enctype="text/plain">
+    <div id="form-messages"></div>
+    <form id="message-form" action="app/mailer.php" method="post" enctype="text/plain">
       <div id="email-input-wrapper">
         <h2>email</h2>
-        <input id="email-input" type="text" name="" value="">
+        <input id="email-input" type="text" name="" value="" required>
       </div>
       <div id="message-input-wrapper">
         <h2>message</h2>
-        <textarea id="message-input" type="text" name="" value="" rows="8"></textarea>
+        <textarea id="message-input" type="text" name="" value="" rows="8" required></textarea>
       </div>
       <div id="submit-wrapper">
         <button id="send-message" type="submit" value="send message">send message</button>
       </div>
     </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.9/interact.min.js"></script>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="app.js"></script>
+    <script src="/js/toggleNavigation.js" charset="utf-8"></script>
   </body>
 </html>
