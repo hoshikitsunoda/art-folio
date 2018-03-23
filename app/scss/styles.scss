@@ -56,13 +56,14 @@ li {
 .navbar-brand {
   box-sizing: border-box;
   font-size: 3rem;
-  background: -webkit-linear-gradient(white, #464746);
+  background: -webkit-linear-gradient(white, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   padding: 15px;
   line-height: 24px;
-  letter-spacing: 15px;
+  letter-spacing: 3px;
+  text-shadow: 1px 3px 1px #ddd;
 }
 
 @media (max-width: 768px) {
