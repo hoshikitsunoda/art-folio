@@ -291,3 +291,36 @@ const digitalWorkData = [
     url: 'https://goo.gl/xEh7L2'
   }
 ]
+
+// const gifUrl = [
+//   {
+//     url: 'https://goo.gl/J4Ainw'
+//   },
+//   {
+//     url: 'https://goo.gl/Q9e79B'
+//   },
+//   {
+//     url: 'https://goo.gl/ELeKN3'
+//   },
+//   {
+//     url: 'https://goo.gl/Q9QiP5'
+//   },
+//   {
+//     url: 'https://goo.gl/C6UXbN'
+//   },
+//   {
+//     url: 'https://goo.gl/1hZkc7'
+//   },
+//   {
+//     url: 'https://goo.gl/V93VmA'
+//   },
+//   {
+//     url: 'https://goo.gl/KuMdLV'
+//   },
+//   {
+//     url: 'https://goo.gl/AJ69b1'
+//   },
+//   {
+//     url: 'https://goo.gl/dm86rW'
+//   }
+// ]
